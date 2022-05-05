@@ -10,9 +10,12 @@ public class Person {
     }
 
     public void callYourPet() {
-
         System.out.println("Hello my lovely Pet");
         pet.say();
+    }
 
+    public void setPet(Pet pet) {
+        System.out.println("В класс персон добавили животное");
+        this.pet = pet;
     }
 }
