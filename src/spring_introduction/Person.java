@@ -9,6 +9,10 @@ public class Person {
         this.pet = pet;
     }
 
+    public Person(){
+        System.out.println("Person created");
+    }
+
     public void callYourPet() {
         System.out.println("Hello my lovely Pet");
         pet.say();
